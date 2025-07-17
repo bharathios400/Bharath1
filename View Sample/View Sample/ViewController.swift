@@ -13,7 +13,7 @@ class ViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        bharathview.frame = CGRect(x:40, y: 89, width: self.view.frame.size.width - 80, height:200 )
+        bharathview.frame = CGRect(x:50, y: 89, width: self.view.frame.size.width - 80, height:200 )
         bharathview.backgroundColor = .green
         self.view.addSubview(bharathview)
         
